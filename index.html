@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anushri Rai — Aspiring Full-Stack Developer &amp; AI Enthusiast</title>
+<meta name="description" content="Portfolio of Anushri Rai, BCA student, aspiring MERN full-stack developer and AI enthusiast based in Lucknow, India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loading screen -->
+<div id="loader" class="loader" aria-hidden="true">
+  <div class="loader-mark">AR</div>
+  <div class="loader-bar"><span></span></div>
+</div>
+
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<!-- Progress rail -->
+<div class="scroll-progress" aria-hidden="true"><span id="scrollProgressFill"></span></div>
+
+<!-- Nav -->
+<header class="nav-wrap">
+  <nav class="nav">
+    <a href="#home" class="nav-brand">AR<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="active" data-nav>Home</a></li>
+      <li><a href="#about" data-nav>About</a></li>
+      <li><a href="#skills" data-nav>Skills</a></li>
+      <li><a href="#learning" data-nav>Learning</a></li>
+      <li><a href="#projects" data-nav>Projects</a></li>
+      <li><a href="#education" data-nav>Education</a></li>
+      <li><a href="#certifications" data-nav>Certifications</a></li>
+      <li><a href="#achievements" data-nav>Achievements</a></li>
+      <li><a href="#contact" data-nav>Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-aurora" aria-hidden="true">
+      <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+    </div>
+    <div class="hero-particles" aria-hidden="true">
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+
+    <div class="hero-inner reveal">
+      <div class="hero-text">
+        <p class="eyebrow">Lucknow, Uttar Pradesh, India</p>
+        <h1 class="hero-name">Anushri Rai</h1>
+        <p class="hero-role" id="heroRole">
+          <span class="role-word active">BCA Student</span>
+          <span class="role-word">Aspiring Full-Stack Developer</span>
+          <span class="role-word">AI Enthusiast</span>
+          <span class="role-word">Web Development Learner</span>
+        </p>
+        <p class="hero-intro">
+          Hello! I'm Anushri Rai, a passionate BCA student currently pursuing my 2nd year of college.
+          I enjoy building modern web applications, exploring Artificial Intelligence, and continuously
+          learning new technologies to become a skilled software developer.
+        </p>
+
+        <div class="hero-badges">
+          <span class="badge">🏆 Certified in DSA using C</span>
+          <span class="badge">🚧 Building PulseAI — AI Fitness Trainer</span>
+          <span class="badge">🌐 Learning Web Development</span>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary" id="resumeBtn">Download Resume</a>
+          <a href="#projects" class="btn btn-ghost">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="glass-stack">
+          <div class="stack-card card-1">
+            <span class="dot dot-c"></span>
+            <p class="card-title">console.log</p>
+            <p class="card-line">"Building PulseAI…"</p>
+          </div>
+          <div class="stack-card card-2">
+            <p class="stat-num">02</p>
+            <p class="stat-label">Year · BCA</p>
+          </div>
+          <div class="stack-card card-3">
+            <p class="stat-num">92%</p>
+            <p class="stat-label">Class 10 Score</p>
+          </div>
+          <div class="ring ring-1"></div>
+          <div class="ring ring-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-head reveal">
+      <p class="eyebrow">Who I Am</p>
+      <h2>About Me</h2>
+    </div>
+
+    <div class="about-grid reveal">
+      <div class="about-card glass">
+        <p>I am currently pursuing my Bachelor of Computer Applications (BCA) and am in my 2nd year of
+        college. I have a strong interest in Web Development, Artificial Intelligence, and creating
+        user-friendly digital experiences.</p>
+        <p>I am currently learning Web Development and continuously improving my skills in HTML, CSS,
+        JavaScript, and modern development practices.</p>
+        <p>I believe in learning by building real-world projects and enhancing my technical knowledge
+        through projects, internships, and certifications.</p>
+        <p>I am currently working on my flagship project, <strong>PulseAI</strong> — an AI-powered
+        personalized fitness trainer that provides workout recommendations and fitness guidance.</p>
+        <p>My long-term goal is to become a skilled software developer and create impactful digital
+        products that solve real-world problems.</p>
+      </div>
+
+      <div class="about-side">
+        <div class="mini-stat glass">
+          <span class="mini-num">4+</span>
+          <span class="mini-label">AI-powered projects built</span>
+        </div>
+        <div class="mini-stat glass">
+          <span class="mini-num">92%</span>
+          <span class="mini-label">Class 10 percentage</span>
+        </div>
+        <div class="mini-stat glass">
+          <span class="mini-num">87.5%</span>
+          <span class="mini-label">Class 12 percentage</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt">
+    <div class="section-head reveal">
+      <p class="eyebrow">What I Work With</p>
+      <h2>Skills</h2>
+    </div>
+
+    <div class="skills-grid reveal">
+      <div class="skill-group glass">
+        <h3>Programming Languages</h3>
+        <ul class="skill-list">
+          <li><span>C</span><em class="tag">Proficient</em></li>
+          <li><span>C++</span><em class="tag">Proficient</em></li>
+          <li><span>Python</span><em class="tag learning">Learning</em></li>
+          <li><span>SQL</span><em class="tag learning">Learning</em></li>
+        </ul>
+      </div>
+
+      <div class="skill-group glass">
+        <h3>Web Development</h3>
+        <ul class="skill-list">
+          <li><span>HTML5</span><em class="tag">Proficient</em></li>
+          <li><span>CSS3</span><em class="tag">Proficient</em></li>
+          <li><span>JavaScript</span><em class="tag">Building With</em></li>
+          <li><span>Responsive Design</span><em class="tag">Building With</em></li>
+          <li><span>Git &amp; GitHub</span><em class="tag">Building With</em></li>
+        </ul>
+      </div>
+
+      <div class="skill-group glass">
+        <h3>Tools &amp; Technologies</h3>
+        <ul class="skill-list">
+          <li><span>VS Code</span><em class="tag">Daily Use</em></li>
+          <li><span>Groq API</span><em class="tag">Daily Use</em></li>
+          <li><span>Figma</span><em class="tag">Building With</em></li>
+          <li><span>Canva</span><em class="tag">Building With</em></li>
+          <li><span>Prompt Engineering</span><em class="tag">Daily Use</em></li>
+        </ul>
+      </div>
+
+      <div class="skill-group glass">
+        <h3>Soft Skills</h3>
+        <ul class="skill-list plain">
+          <li>Communication</li>
+          <li>Problem Solving</li>
+          <li>Leadership</li>
+          <li>Teamwork</li>
+          <li>Time Management</li>
+          <li>Adaptability</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURRENTLY LEARNING -->
+  <section id="learning" class="section">
+    <div class="section-head reveal">
+      <p class="eyebrow">In Progress</p>
+      <h2>Currently Learning</h2>
+      <p class="section-sub">I strongly believe in continuous learning and consistently dedicate time to
+      improving my skills in Web Development, Programming, and Artificial Intelligence by building
+      projects and exploring new technologies.</p>
+    </div>
+
+    <div class="learning-grid reveal">
+      <div class="learn-card glass">
+        <span class="learn-icon">🌐</span>
+        <h3>Web Development</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Responsive Design</li>
+          <li>Building Real-World Projects</li>
+        </ul>
+      </div>
+      <div class="learn-card glass">
+        <span class="learn-icon">🐍</span>
+        <h3>Python Programming</h3>
+        <ul>
+          <li>Fundamentals</li>
+          <li>Problem Solving</li>
+          <li>Data Structures</li>
+        </ul>
+      </div>
+      <div class="learn-card glass">
+        <span class="learn-icon">🗄️</span>
+        <h3>SQL &amp; Databases</h3>
+        <ul>
+          <li>Database Fundamentals</li>
+          <li>SQL Queries</li>
+          <li>Database Design Concepts</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section alt">
+    <div class="section-head reveal">
+      <p class="eyebrow">Selected Work</p>
+      <h2>Projects</h2>
+    </div>
+
+    <div class="projects-grid reveal">
+
+      <article class="project-card glass">
+        <div class="project-media" data-project="pulseai">
+          <span class="project-status">🚧 In Development</span>
+          <span class="project-initial">PA</span>
+        </div>
+        <div class="project-body">
+          <h3>PulseAI</h3>
+          <p>An AI-powered personalized fitness trainer that provides workout recommendations, fitness
+          guidance, and customized training plans using AI technologies.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Groq API</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn-small">GitHub</a>
+            <a href="#" class="btn-small ghost">Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass">
+        <div class="project-media" data-project="sprout">
+          <span class="project-initial">SP</span>
+        </div>
+        <div class="project-body">
+          <h3>Sprout — AI Content Writer</h3>
+          <p>An AI-powered content generation platform capable of creating blogs, social media posts,
+          emails, and SEO content using the Groq API.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Groq API</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn-small">GitHub</a>
+            <a href="#" class="btn-small ghost">Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass">
+        <div class="project-media" data-project="wayfarer">
+          <span class="project-initial">WF</span>
+        </div>
+        <div class="project-body">
+          <h3>Wayfarer — AI Travel Planner</h3>
+          <p>An intelligent travel planner that generates personalized travel itineraries and
+          recommendations using AI.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Groq API</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn-small">GitHub</a>
+            <a href="#" class="btn-small ghost">Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass">
+        <div class="project-media" data-project="grammar">
+          <span class="project-initial">GA</span>
+        </div>
+        <div class="project-body">
+          <h3>Grammar AI</h3>
+          <p>An AI-powered grammar checking and writing assistant that improves text clarity and
+          correctness.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn-small">GitHub</a>
+            <a href="#" class="btn-small ghost">Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="section-head reveal">
+      <p class="eyebrow">My Journey</p>
+      <h2>Education</h2>
+    </div>
+
+    <div class="timeline reveal">
+      <div class="timeline-item">
+        <div class="timeline-dot current"></div>
+        <div class="timeline-content glass">
+          <span class="timeline-tag">Currently Pursuing</span>
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <p>2nd Year Student — passionate about Software Development and Artificial Intelligence.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass">
+          <span class="timeline-tag">87.5%</span>
+          <h3>Class 12</h3>
+          <p>City Montessori School</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass">
+          <span class="timeline-tag">92%</span>
+          <h3>Class 10</h3>
+          <p>City Montessori School</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section alt">
+    <div class="section-head reveal">
+      <p class="eyebrow">Verified Learning</p>
+      <h2>Certifications</h2>
+    </div>
+
+    <div class="cert-grid reveal">
+      <div class="cert-card glass">
+        <div class="cert-top">
+          <span class="cert-badge">Completed</span>
+          <span class="cert-glyph">🎓</span>
+        </div>
+        <h3>Virtual Internship in Data Structures and Algorithms Using C</h3>
+        <div class="tags">
+          <span>Arrays &amp; Linked Lists</span>
+          <span>Stacks &amp; Queues</span>
+          <span>Searching &amp; Sorting</span>
+          <span>Recursion</span>
+          <span>Problem Solving</span>
+          <span>Algorithm Design</span>
+        </div>
+        <a href="#" class="btn-small ghost">View Certificate</a>
+      </div>
+
+      <div class="cert-card glass cert-placeholder">
+        <div class="cert-top">
+          <span class="cert-glyph">➕</span>
+        </div>
+        <h3>More certifications coming soon</h3>
+        <p class="cert-note">This space grows as new courses and internships are completed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section">
+    <div class="section-head reveal">
+      <p class="eyebrow">Milestones</p>
+      <h2>Achievements</h2>
+    </div>
+
+    <div class="achieve-grid reveal">
+      <div class="achieve-card glass">
+        <span class="achieve-icon">🏆</span>
+        <p>Successfully completed a Virtual Internship in Data Structures and Algorithms Using C.</p>
+      </div>
+      <div class="achieve-card glass">
+        <span class="achieve-icon">🚀</span>
+        <p>Built multiple AI-powered web applications.</p>
+      </div>
+      <div class="achieve-card glass">
+        <span class="achieve-icon">💻</span>
+        <p>Currently developing PulseAI — Personalized AI Fitness Trainer.</p>
+      </div>
+      <div class="achieve-card glass">
+        <span class="achieve-icon">🌐</span>
+        <p>Currently learning and building projects in Web Development.</p>
+      </div>
+      <div class="achieve-card glass">
+        <span class="achieve-icon">📚</span>
+        <p>Continuously learning Python and SQL.</p>
+      </div>
+      <div class="achieve-card glass">
+        <span class="achieve-icon">🌱</span>
+        <p>Passionate about Artificial Intelligence and Full-Stack Development.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <div class="section-head reveal">
+      <p class="eyebrow">Let's Connect</p>
+      <h2>Contact</h2>
+    </div>
+
+    <div class="contact-panel glass reveal">
+      <div class="contact-info">
+        <div class="contact-row">
+          <span class="contact-icon">✉️</span>
+          <div>
+            <p class="contact-label">Email</p>
+            <a href="mailto:anushri.rai@example.com">anushri.rai@example.com</a>
+          </div>
+        </div>
+        <div class="contact-row">
+          <span class="contact-icon">📞</span>
+          <div>
+            <p class="contact-label">Phone</p>
+            <a href="tel:+910000000000">+91 00000 00000</a>
+          </div>
+        </div>
+        <div class="contact-row">
+          <span class="contact-icon">📍</span>
+          <div>
+            <p class="contact-label">Location</p>
+            <span>Lucknow, Uttar Pradesh, India</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-social">
+        <a href="#" class="social-btn">
+          <span class="social-icon">in</span> LinkedIn
+        </a>
+        <a href="#" class="social-btn">
+          <span class="social-icon">GH</span> GitHub
+        </a>
+        <a href="#" class="social-btn">
+          <span class="social-icon">IG</span> Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p>Designed and Developed by <strong>Anushri Rai</strong> © 2026</p>
+    <p class="footer-tagline">"Building innovative solutions with code and creativity."</p>
+    <div class="footer-social">
+      <a href="#" aria-label="LinkedIn">in</a>
+      <a href="#" aria-label="GitHub">GH</a>
+      <a href="#" aria-label="Instagram">IG</a>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
